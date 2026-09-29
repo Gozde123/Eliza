@@ -1,4 +1,4 @@
-# DI 502 Project Template - 2025
+# DI 502 Project Template - 2026
 
 ## Welcome to your new space!
 
