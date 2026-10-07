@@ -39,7 +39,7 @@ Each rule is a condition you can check with yes or no.
 2. Every milestone has at least one associated deliverable.
 3. Every associated deliverable appears in [Deliverables](03-project-canvas_v2/05-deliverables.md) under the same number and name.
 4. Deliverable deadlines are aligned with milestones: the associated deliverable is due in the same sprint as the milestone and not later than the milestone's Expected Date. For a checkpoint, the deliverable is due by the end of the sprint before it.
-5. Every Expected Date is a calendar date between 14/10/2026 and 30/12/2026.
+5. Every Expected Date is a calendar date between 07/10/2026 and 30/12/2026.
 6. Every milestone named as a checkpoint has a date that falls between the end of one sprint and the start of the next.
 7. If an objective in [Project Executive Summary](03-project-canvas_v2/01-project-executive-summary.md) sets a target that is measured later (for example user satisfaction), a milestone shows when it is measured and a deliverable holds the result.
 8. Milestones and deliverables do not force a waterfall approach. For example, evaluation does not appear only once, at the end of the project.

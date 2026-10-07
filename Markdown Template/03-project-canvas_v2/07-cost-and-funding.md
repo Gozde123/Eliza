@@ -1,10 +1,8 @@
 # Cost & Funding
 
-This page shows what the project consumes and where it comes from. Count effort in **person-hours, with no currency**. Cover every human, material and financial resource needed to produce the deliverables and meet the objectives.
+This page shows what the project consumes and where it comes from. Count human effort in **person-hours**. Cover every human, material and financial resource needed to produce the deliverables and meet the objectives.
 
 "No direct budget is allocated; costs are minimal" is a weak entry. It gives no table, no hours and no source, and "minimal" is an adjective. A strong entry is a table row: "Data preparation and cleaning ([Major Activities](03-project-canvas_v2/04-major-activities.md) rows 4–6). One-time. 40 person-hours." (illustrative only)
-
-This page is not a red cell, so it is not required in the first version of the Project Canvas. The charter as a whole is expected to be finished by the end of Sprint 2.
 
 ## What to cost
 
@@ -30,7 +28,7 @@ Include **one-time** costs (set-up, building, a training run) and **ongoing** co
 |---|---|---|
 | **Item** | The resource or the work, named with its [Major Activities](03-project-canvas_v2/04-major-activities.md) row or [Milestones](03-project-canvas_v2/02-milestones.md) deliverable where possible | What are we costing? |
 | **Type (One-time/Ongoing)** | Whether the cost occurs once or repeats | Does it recur? |
-| **Estimated Cost** | For human effort: person-hours. For material and financial items: the amount used, in the unit the provider uses (credits, calls, GPU-hours), with no currency | How much? |
+| **Estimated Cost** | For human effort: person-hours. For material and financial items: the amount used, in the unit the provider uses (credits, calls, GPU-hours) | How much? |
 | **Notes** | Basis of the estimate and any limit it must stay within | Based on what? |
 
 TODO(not in sources): a course-wide unit for non-human resources.
@@ -110,7 +108,7 @@ Scenario: a legal research assistant. Four members × 5 hours per week × 13 wee
 | 4 | Evaluation set and experiments ([Major Activities](03-project-canvas_v2/04-major-activities.md) rows 14–17) | One-time | 60 person-hours | 3 experiment cards × 20 h |
 | 5 | Monitoring and re-evaluation after deployment | Ongoing | 25 person-hours | Weekly checks in Sprint 4 |
 | 6 | Reviews, demos and retrospectives | Ongoing | 30 person-hours | Includes peer review at Sprints 2–4 |
-| 7 | Cloud GPU usage | Ongoing | Up to the allocated credit | Allocation from the university; tracked weekly |
+| 7 | Cloud GPU usage | Ongoing | Up to $100 | Allocation from the university; tracked weekly |
 | | **Total effort** | | **250 person-hours** | Within the 260 available (C-01) |
 
 Source of Funding: team effort (250 person-hours) is contributed in-kind by the four members, who have committed to the hours in C-01. Compute comes from the university cloud credit. The document set is used under its published licence, at no charge.

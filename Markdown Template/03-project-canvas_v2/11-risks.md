@@ -141,7 +141,7 @@ Copy this block for each risk.
 | **Risk (event)** | End-to-end latency does not meet the target on the available hardware |
 | **Linked to** | A-04: "The allocated GPU quota supports the latency target for 20 concurrent users" |
 | **Cause** | The GPU quota comes from shared cloud credits; the final allocation is not known at project start |
-| **When / where** | Sprints 3–5; during development and after deployment |
+| **When / where** | Sprints 2-4; during development and after deployment |
 | **Mitigation** | Early capacity test in Sprint 2; batching, caching and quantization trials |
 | **Probability (basis)** | 3: the Sprint 2 pilot measured p95 latency at 1.6× the target |
 | **Impact (basis)** | 4: latency is an acceptance criterion of the MVP deliverable |

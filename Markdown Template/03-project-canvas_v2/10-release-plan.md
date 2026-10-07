@@ -56,7 +56,7 @@ Each rule is a condition you can check with yes or no.
 7. The plan has more than one release, spread over the sprints, not a single delivery at the end.
 8. Every beta names who receives it: which customers or testers [1]. The same people appear as Stakeholders of the beta deliverable in [Deliverables](03-project-canvas_v2/05-deliverables.md).
 
-## Test: three consistency checks
+## Test: two consistency checks
 
 1. **Against [Deliverables](03-project-canvas_v2/05-deliverables.md).** Pick each Key Deliverable. Is its due date inside the sprint's dates, and is its name the same as in 05?
 2. **Against [Milestones](03-project-canvas_v2/02-milestones.md).** Does every milestone in [Milestones](03-project-canvas_v2/02-milestones.md) fall in the sprint where its deliverable is listed here, or in the gap just after it?

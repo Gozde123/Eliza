@@ -291,7 +291,7 @@ Every name, number, date and target below is invented. None is a real project fa
 
 **Background.** City residents find waste-collection rules in three places: a PDF calendar, the city website and a telephone helpline. Residents miss collections, and the helpline receives many repeated questions.
 
-**Budget:** $100 of Google Cloud credits (fixed, per project). **Duration:** 4 sprints. **Timeline:** 1 October to 15 January.
+**Budget:** $100 of Google Cloud credits (fixed, per project). **Duration:** 4 sprints. **Timeline:** 14/10/2026 - 30/12/2026
 
 **1. Stakeholders**
 

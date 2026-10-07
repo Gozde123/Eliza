@@ -72,23 +72,23 @@ Once a constraint is in the charter, a user story that contradicts it is an inco
 - **Effort in person-hours** goes in [Dependencies](03-project-canvas_v2/07-cost-and-funding.md).
 
 ## Activities
-
+ 
 | # | Stage | Activity | Description | Status | Jira Task |
 |---|---|---|---|---|---|
-| 1 | Business Understanding | Define chatbot purpose, users, and success criteria | Completed as part of project chartering. (See Project Executive Summary above) | In Scope | |
-| 2 | Business Understanding | Market/competitive analysis of existing chatbot products | Not needed for an academic proof-of-concept | Out of Scope | |
+| 1 | Inception | Define chatbot purpose, users, and success criteria | Completed as part of project chartering. (See Project Executive Summary above) | In Scope | |
+| 2 | Inception | Market/competitive analysis of existing chatbot products | Not needed for an academic proof-of-concept | Out of Scope | |
 | 3 | | | | | |
-
+ 
 ## Example (illustrative only)
-
-An excerpt from a longer table for a legal research assistant (a RAG chatbot over legal documents). It shows the rows created by constraints C-03 and C-04 in the example on [Assumptions & Constraints](03-project-canvas_v2/03-assumptions-and-constraints.md).
-
+ 
+An excerpt from a longer table for a legal research assistant (a RAG chatbot over legal documents). It shows the rows created by constraints C-03 and C-04 in the example on `03-assumptions-and-constraints.md`.
+ 
 | # | Stage | Activity | Description | Status | Jira Task |
 |---|---|---|---|---|---|
-| 7 | Data Acquisition & Understanding | Mask PII in user inputs before logging | Because of C-03. Detect names, emails and ID numbers in queries and mask them before any log write. Mitigation for R-03. | In Scope | (link) |
+| 7 | Design and development | Mask PII in user inputs before logging | Because of C-03. Detect names, emails and ID numbers in queries and mask them before any log write. Mitigation for R-03. | In Scope | (link) |
 | 8 | Deployment | Configure logs to keep only anonymized interaction data | Because of C-03. | In Scope | (link) |
-| 12 | Deployment | User accounts, personal profiles and saved conversation history | Because of C-03: these would require storing PII. | Out of Scope | |
-| 13 | Modeling | Multi-turn dialogue memory | Because of C-04: the system handles single-turn questions only. | Out of Scope | |
+| 12 | Design and development | User accounts, personal profiles and saved conversation history | Because of C-03: these would require storing PII. | Out of Scope | |
+| 13 | Design and development | Multi-turn dialogue memory | Because of C-04: the system handles single-turn questions only. | Out of Scope | |
 
 ## Checklist before submitting
 
