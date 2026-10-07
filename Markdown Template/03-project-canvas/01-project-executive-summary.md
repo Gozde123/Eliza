@@ -160,7 +160,7 @@ The objectives on this page are business objectives. Write each one by the SMART
 4. Each criterion uses a plain-language measure that a stakeholder understands without technical background, such as the share of answers judged correct or the time needed to find something. It uses no convoluted metric such as Recall@k or RAG-triad scores.
 5. Each criterion maps to one or more specific metrics. Technical metrics are defined in the experiment cards and model card; user-facing ones, such as survey scores, are defined in the criterion itself. The Risks page uses these metrics as triggers.
 6. The team sets each target level for its own project and states where the level comes from.
-7. A criterion that claims an improvement compares against the **baseline**. Here, the baseline is the default state: what users do or get today without the project. It is not a model baseline. Example: today, people find it hard to find restaurants that suit them (default state); with the app, they get more personalized recommendations. To turn this into a criterion, measure both states, for example the share of users who find a restaurant they like within 5 minutes, before and with the app (illustrative).
+7. A criterion that claims an improvement compares against the **baseline**. Here, the baseline is the default state: what users do or get today without the project. It is not a model baseline. Example: today, people find it hard to find restaurants that suit them (default state); with the app, they get more personalized recommendations. To turn this into a criterion, measure both states, for example the share of users who find a restaurant they like within 5 minutes, before and with the app (illustrative). (For other technical documentation the baseline refers to a naive approach such as retrieving the most commonly referred to document all the time. It should require little or no models and the performance should be with respect to this approach.)
 
 ### 2.4 Business outcomes
 
@@ -291,7 +291,7 @@ Every name, number, date and target below is invented. None is a real project fa
 
 **Background.** City residents find waste-collection rules in three places: a PDF calendar, the city website and a telephone helpline. Residents miss collections, and the helpline receives many repeated questions.
 
-**Budget:** $100 of Google Cloud credits (fixed, per project). **Duration:** 4 sprints. **Timeline:** 1 October to 15 January.
+**Budget:** $100 of Google Cloud credits (fixed, per project). **Duration:** 4 sprints. **Timeline:** 14/10/2026 - 30/12/2026
 
 **1. Stakeholders**
 
@@ -303,7 +303,7 @@ Every name, number, date and target below is invented. None is a real project fa
 | 4 | Collection contractor | Data provider | Make | Supplies the collection schedules | Fewer missed-collection complaints |
 | 5 | Neighbours of missed bins | Community | Impact | Affected when bins are left out | Cleaner streets |
 
-Conflicts: the department wants fewer helpline calls, but residents without internet access still need the helpline. The helpline stays (see Out of Scope under Major Activities).
+Conflicts: the department wants fewer helpline calls, but residents without internet access still need the helpline. The helpline stays. Replacing it will fall out of scope. (see Out of Scope under Major Activities).
 
 **2. Project Vision.** Every resident can find out, in one place and in their own words, what goes in which bin and when it is collected, so fewer collections are missed.
 
