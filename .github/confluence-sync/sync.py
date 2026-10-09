@@ -216,9 +216,25 @@ class Confluence:
         return self._req("GET", f"{self.api}/pages/{page_id}")
 
     def find(self, title: str) -> dict | None:
-        res = self._req("GET", f"{self.api}/pages",
-                        params={"space-id": self.space_id, "title": title, "status": "current"})
-        return next((p for p in res.get("results", []) if p["title"] == title), None)
+        wanted = title.strip().casefold()
+        params = {"space-id": self.space_id, "status": "current", "limit": 250}
+        url = f"{self.api}/pages"
+
+        while url:
+            res = self._req("GET", url, params=params)
+            params = {}
+            for page in res.get("results", []):
+                if page["title"].strip().casefold() == wanted:
+                    return page
+
+            next_url = res.get("_links", {}).get("next")
+            if next_url:
+                from urllib.parse import urljoin
+                url = urljoin(self.site, next_url)
+            else:
+                url = None
+
+        return None
 
     def create(self, title: str, parent_id: str, body: str) -> dict:
         return self._req("POST", f"{self.api}/pages", json={
